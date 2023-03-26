@@ -74,9 +74,9 @@ $(document).ready(function() {
     var loader = document.getElementById('loader');
     var loaderText = document.getElementById('loader-text');
     var percent = 0;
-
+    $('body').addClass('lock-send-request');  
     var interval = setInterval(function () {
-      $('body').addClass('lock-send-request');  
+
       percent++;
       loaderText.textContent = percent + '%';
       if (percent >= 100) {

@@ -76,11 +76,13 @@ $(document).ready(function() {
     var percent = 0;
 
     var interval = setInterval(function () {
+      $('body').addClass('lock-send-request');  
       percent++;
       loaderText.textContent = percent + '%';
       if (percent >= 100) {
         clearInterval(interval);
         loader.style.display = 'none';
+        $('body').removeClass('lock-send-request');  
       }
     }, 20);
     

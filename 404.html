@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="assets/css/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/blocks.min.css">
+    <link rel="stylesheet" href="assets/css/menu.min.css">
+    <link rel="stylesheet" href="assets/css/pages/404.min.css">
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title></title>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="loader">
+      <div id="loader-text">0%</div>
+    </div>
+    <nav class="menu">
+      <div class="menu__row" >
+        <a href="./index.html" class="menu__link menu__link--logo" >Logo</a>
+          <ul class="menu__link menu__list">
+            <a href="./index.html" class="menu__link-menu" >Home</a>
+            <a href="./projects.html" class="menu__link-menu" >Projects</a>
+            <a href="./about.html" class="menu__link-menu" >About us</a>
+            <a href="./news.html" class="menu__link-menu" >Blog</a>
+            <a href="./contact.html"class="menu__link-menu" >Contacts</a>
+            <a href="#"class="menu__link-menu menu__link menu__link--button" >Send Request</a>
+            <div class="contact-row">
+              <a href="#" class="contact-row__link">Fb</a>
+              <a href="#" class="contact-row__link">In</a>
+              <a href="#" class="contact-row__link">Be</a>
+              <div class="contact-row__sity">
+                <div class="form-group">
+                  <div class="select-wrapper">
+                    <select name="" id="">
+                      <option value="0">Berlin</option>
+                      <option value="1">Kiev</option>
+                      <option value="2">London</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-row__phone">+380983527547</div>
+              <div class="contact-row__email">E: info@gmail.com</div>
+            </div>
+          </ul>
+        <a href="#"class="menu__link" >En</a>
+        <div class="menu__link menu__link--button" >Send Request</div>
+        <div class="menu__link menu__burger "></div>
+      </div>
+    </nav>
+    
+    <div class="background-send-request">
+      <div class="background-send-request__exit"></div>
+      <div class="send-request">
+        <div class="send-request__block-top">
+          <div class="send-request__title">Calculate the cost of work</div>
+          <div class="send-request__title--adaptive">Make request</div>
+          <div class="send-email send-request__name"><input type="text" class="title-five" placeholder="Name"></div>
+          <div class="send-email send-request__last-name"><input type="text" class="title-five" placeholder="Last name"></div>
+          <div class="send-email send-request__phone"><input type="text" class="title-five" placeholder="Phone"></div>
+          <div class="send-email send-request__your-city"><input type="text" class="title-five" placeholder="Your city"></div>
+          <div class="send-email send-request__email"><input type="text" class="title-five" placeholder="Email"></div>
+          <div class="send-email send-request__your-comment"><input type="text" class="title-five" placeholder="Your comment"></div>
+          <select class="send-request__select title-five" >
+            <option value="1" >Property type</option>
+            <option value="2" >Apartment</option>
+            <option value="3" >House</option>
+          </select>
+        </div>
+        <div class="send-request__block-bottom">
+          <div class="send-request__bottom-title title-five">Area (m2)</div>
+       
+          <div class="send-request__radio-one send-request__radio-group">
+            <label for="radio1">to 50</label>
+            <input type="radio" id="radio1" name="radio-group" value="1">
+          </div>
+          
+          <div class="send-request__radio-two send-request__radio-group active">
+            <label for="radio2">50-150</label>
+            <input type="radio" id="radio2" name="radio-group" value="2">
+          </div>
+          
+          <div class="send-request__radio-three send-request__radio-group">
+            <label for="radio3">150-250</label>
+            <input type="radio" id="radio3" name="radio-group" value="3">
+          </div>
+          
+          <div class="send-request__radio-four send-request__radio-group">
+            <label for="radio4">250-400</label>
+            <input type="radio" id="radio4" name="radio-group" value="4">
+          </div>
+          
+          <div class="send-request__radio-five send-request__radio-group">
+            <label for="radio5">400-600</label>
+            <input type="radio" id="radio5" name="radio-group" value="5">
+          </div>
+          
+          <div class="send-request__radio-six send-request__radio-group">
+            <label for="radio6">600-800</label>
+            <input type="radio" id="radio6" name="radio-group" value="6">
+          </div>
+          
+          <div class="send-request__radio-seven send-request__radio-group">
+            <label for="radio7">800-1000</label>
+            <input type="radio" id="radio7" name="radio-group" value="7">
+          </div>
+          
+          <div class="send-request__radio-eight send-request__radio-group">
+            <label for="radio8">1000+</label>
+            <input type="radio" id="radio8" name="radio-group" value="8">
+          </div>
+          
+            <div class="send-request__add-file">
+              <label for="file-upload" class="send-request__file-upload"><img src="./assets/images/svg/plus.svg" alt=""></label>
+              <input id="file-upload" type="file" />
+              <div class="send-request__add-file-title title-five">Attach your file</div>         
+              <div class="send-request__add-file-text">File size not more than 10 MB</div>
+              <div class="send-request__button"><a href="#" class="button send-request__link">Send Request</a></div>
+            </div>
+            <div class="send-request__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+        </div>
+      </div>
+      <div class="send-request-next">
+        <div class="send-request-next__title">Thank you for your message!</div>
+        <div class="send-request-next__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</div>
+        <div class="send-request-next__button "><a href="#" class="send-request-next__link button">Send again</a></div>
+      </div>
+    </div>
+    
+    <script src="./assets/js/menu.js"></script>
+    
+    
+    <div class="background-image">
+      <div class="error404">
+          <div class="error404__title title-three">Page not found</div>
+          <div class="error404__text text">Something went wrong. Page not found</div>
+          <div class="error404__button"><a href="./index.html" class="link-and-row">go to main</a></div>
+      </div>
+    </div>
+
+    
+    <footer class="footer">
+      <div class="footer__left-text text">© Copyright 2018. All rights reserved</div>
+      <div class="footer__rigth-tetx text">Made with love in</div>
+      <div class="footer__the-first">The First</div>
+      <div class="footer__the-last">The Last.</div>
+    </footer>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src=""></script>
+</body>
+</html>

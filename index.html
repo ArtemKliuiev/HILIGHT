@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="assets/css/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/blocks.min.css">
+    <link rel="stylesheet" href="assets/css/menu.min.css">
+    <link rel="stylesheet" href="assets/css/pages/main.min.css">
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Main</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="loader">
+      <div id="loader-text">0%</div>
+    </div>
+    <nav class="menu">
+      <div class="menu__row" >
+        <a href="./index.html" class="menu__link menu__link--logo" >Logo</a>
+          <ul class="menu__link menu__list">
+            <a href="./index.html" class="menu__link-menu" >Home</a>
+            <a href="./projects.html" class="menu__link-menu" >Projects</a>
+            <a href="./about.html" class="menu__link-menu" >About us</a>
+            <a href="./news.html" class="menu__link-menu" >Blog</a>
+            <a href="./contact.html"class="menu__link-menu" >Contacts</a>
+            <a href="#"class="menu__link-menu menu__link menu__link--button" >Send Request</a>
+            <div class="contact-row">
+              <a href="#" class="contact-row__link">Fb</a>
+              <a href="#" class="contact-row__link">In</a>
+              <a href="#" class="contact-row__link">Be</a>
+              <div class="contact-row__sity">
+                <div class="form-group">
+                  <div class="select-wrapper">
+                    <select name="" id="">
+                      <option value="0">Berlin</option>
+                      <option value="1">Kiev</option>
+                      <option value="2">London</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-row__phone">+380983527547</div>
+              <div class="contact-row__email">E: info@gmail.com</div>
+            </div>
+          </ul>
+        <a href="#"class="menu__link" >En</a>
+        <div class="menu__link menu__link--button" >Send Request</div>
+        <div class="menu__link menu__burger "></div>
+      </div>
+    </nav>
+    
+    <div class="background-send-request">
+      <div class="background-send-request__exit"></div>
+      <div class="send-request">
+        <div class="send-request__block-top">
+          <div class="send-request__title">Calculate the cost of work</div>
+          <div class="send-request__title--adaptive">Make request</div>
+          <div class="send-email send-request__name"><input type="text" class="title-five" placeholder="Name"></div>
+          <div class="send-email send-request__last-name"><input type="text" class="title-five" placeholder="Last name"></div>
+          <div class="send-email send-request__phone"><input type="text" class="title-five" placeholder="Phone"></div>
+          <div class="send-email send-request__your-city"><input type="text" class="title-five" placeholder="Your city"></div>
+          <div class="send-email send-request__email"><input type="text" class="title-five" placeholder="Email"></div>
+          <div class="send-email send-request__your-comment"><input type="text" class="title-five" placeholder="Your comment"></div>
+          <select class="send-request__select title-five" >
+            <option value="1" >Property type</option>
+            <option value="2" >Apartment</option>
+            <option value="3" >House</option>
+          </select>
+        </div>
+        <div class="send-request__block-bottom">
+          <div class="send-request__bottom-title title-five">Area (m2)</div>
+       
+          <div class="send-request__radio-one send-request__radio-group">
+            <label for="radio1">to 50</label>
+            <input type="radio" id="radio1" name="radio-group" value="1">
+          </div>
+          
+          <div class="send-request__radio-two send-request__radio-group active">
+            <label for="radio2">50-150</label>
+            <input type="radio" id="radio2" name="radio-group" value="2">
+          </div>
+          
+          <div class="send-request__radio-three send-request__radio-group">
+            <label for="radio3">150-250</label>
+            <input type="radio" id="radio3" name="radio-group" value="3">
+          </div>
+          
+          <div class="send-request__radio-four send-request__radio-group">
+            <label for="radio4">250-400</label>
+            <input type="radio" id="radio4" name="radio-group" value="4">
+          </div>
+          
+          <div class="send-request__radio-five send-request__radio-group">
+            <label for="radio5">400-600</label>
+            <input type="radio" id="radio5" name="radio-group" value="5">
+          </div>
+          
+          <div class="send-request__radio-six send-request__radio-group">
+            <label for="radio6">600-800</label>
+            <input type="radio" id="radio6" name="radio-group" value="6">
+          </div>
+          
+          <div class="send-request__radio-seven send-request__radio-group">
+            <label for="radio7">800-1000</label>
+            <input type="radio" id="radio7" name="radio-group" value="7">
+          </div>
+          
+          <div class="send-request__radio-eight send-request__radio-group">
+            <label for="radio8">1000+</label>
+            <input type="radio" id="radio8" name="radio-group" value="8">
+          </div>
+          
+            <div class="send-request__add-file">
+              <label for="file-upload" class="send-request__file-upload"><img src="./assets/images/svg/plus.svg" alt=""></label>
+              <input id="file-upload" type="file" />
+              <div class="send-request__add-file-title title-five">Attach your file</div>         
+              <div class="send-request__add-file-text">File size not more than 10 MB</div>
+              <div class="send-request__button"><a href="#" class="button send-request__link">Send Request</a></div>
+            </div>
+            <div class="send-request__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+        </div>
+      </div>
+      <div class="send-request-next">
+        <div class="send-request-next__title">Thank you for your message!</div>
+        <div class="send-request-next__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</div>
+        <div class="send-request-next__button "><a href="#" class="send-request-next__link button">Send again</a></div>
+      </div>
+    </div>
+    
+    <script src="./assets/js/menu.js"></script>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-body">
+          <div class="swiper header-slider">
+            <div class="swiper-wrapper header-slider__swiper-wrapper">
+              <div class="swiper-slide header-slider__swiper-slide"><img src="./assets/images/interior/1.jpg" alt=""></div>
+              <div class="swiper-slide header-slider__swiper-slide"><img src="./assets/images/interior/2.jpg" alt=""></div>
+              <div class="swiper-slide header-slider__swiper-slide"><img src="./assets/images/interior/3.jpg" alt=""></div>
+              <div class="swiper-slide header-slider__swiper-slide"><img src="./assets/images/interior/4.jpg" alt=""></div>
+            </div>
+          <div class="header-slider__vertical-title">Next Project </div>
+          <div class="header-slider__vertical-text">Perfect proportions</div>
+        </div>
+        <div class="header-main">
+          <div class="header-main__body">
+            <div class="header-main__title title-one">Thoughtful making of space</div>
+            <div class="header-main__info"><a href="#" class="link-and-row">Discover more</a></div>
+            <div class="pagination header-main__pagination">
+              <div class="swiper-pagination header-main__swiper-pagination"></div>
+              <div class="swiper-button-next header-main__swiper-button-one "><strong class="total-slides"></strong><img src="./assets/images/svg/arrow2.svg" class=""alt="" /></div>
+              <div class="swiper-button-prev header-main__swiper-button-two"><img  src="./assets/images/svg/arrow.svg"  class="" alt="" /><strong class="current-slide"></strong></div>
+            </div>
+            <div class="contact-row header-main__contact-row">
+              <a href="#" class="contact-row__link">Fb</a>
+              <a href="#" class="contact-row__link">In</a>
+              <a href="#" class="contact-row__link">Be</a>
+              <div class="contact-row__sity">
+                <div class="form-group">
+                  <div class="select-wrapper">
+                    <select name="" id="">
+                      <option value="0">Berlin</option>
+                      <option value="1">Kiev</option>
+                      <option value="2">London</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-row__phone">+380983527547</div>
+              <div class="contact-row__email">E: info@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </header>
+      <main class="main">
+        <div class="company">
+          <div class="company__row">
+              <div class="company__title title-black">Company Philosophy</div>
+              <div class="company__text text">The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles and architecture. Even if you don't have a ready sketch of what you want - we will help you get the result.</div>
+              <div class="company__text text">We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. Do you want to combine classics and abstract art? Modern and retro? Love everything associated with the 1940's? No problem! </div>
+              <div class="company__button"><a href="#" class="link-and-row">Discover more</a></div>
+              <div class="company__image"><img src="./assets/images/interior/5.jpg" alt=""></div>
+              <div class="company__image-two">
+                <img src="./assets/images/interior/6.jpg" alt="">
+                <img src="./assets/images/interior/7.jpg" alt="">
+              </div>
+              <div class="company__text-two text">We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. 
+                <div class="company__quotes">“</div>
+              </div>
+          </div>
+          <div class="our-projects black-bg">
+            <div class="our-projects__background">
+              <div class="our-projects__bg">
+                <div class="our-projects__ellipse">
+                  <div class="our-projects__bg-we-have">We have more 56 project</div>
+                </div>
+                <div class="our-projects__bg-projects bg-text">Projects</div>
+                <div class="our-projects__bg-make-request bg-text">Make request</div>
+              </div>
+              <div class="our-projects__title title-white">Our Projects</div>
+              <div class="our-projects__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</div>
+              <div class="projects our-projects__projects">
+                <div class="projects__eyewear-store projects__card">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">Eyewear store interior</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <div class="projects__eyewear-store-thee projects__card">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">Eyewear store interior</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <div class="projects__style-home projects__card">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">Eyewear store interior</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <div class="projects__card projects__lighthouse">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">Residence by the lighthouse</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <div class="projects__eyewear-store-two projects__card">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">Eyewear store interior</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <div class="projects__hillside projects__card">
+                  <a href="./one-projects.html" class="projects__card-info">
+                    <div class="projects__card-sity projects__card-top-info">Lodz</div>
+                    <div class="projects__card-date projects__card-top-info">16.10.2018</div>
+                    <div class="projects__card-distance projects__card-top-info">80 sq.m</div>
+                    <div class="projects__card-title title-two">House on a Hillside</div>
+                    <div class="projects__card-more"><span class="link-and-row">Discover more</span></div>
+                  </a>
+                </div>
+                <a href="./one-projects.html" class="projects__see-more projects__card">
+                  <div class="projects__see-more-main">
+                    <div class="projects__card-title title-two projects__title-more ">See more 60 projects</div>
+                    <div class="projects__see-more-image"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="image-row our-projects__image-row">
+                <div class="image-row__title title-three">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="image-row__title-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.</div>
+                <div class="image-row__button"><a href="#" class=" button">Make request</a></div>
+                <div class="image-row__images">
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                  <div class="image-row__img"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lorem">
+            <div class="lorem__bg">
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+              <div class="lorem__img"></div>
+            </div>
+            <div class="lorem__info">
+              <div class="lorem__title title-one">@lorem.ipsum</div>
+              <div class="lorem__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </div>
+            </div>
+          </div>
+        </div> 
+        <div class="background-image  background-image--maim-page">
+          <div class="contact contact--maim-page">
+            <div class="contact__drop">
+              <div class="contact__title title-three">Drop us a line</div>
+              <div class="contact__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere.</div>
+            </div>
+            <div class="contact__column contact__kiev">
+              <div class="contact__title title-four">Kyiv</div>
+              <div class="contact__text text">(209) 555-01046391 Elgin St. Celina, Delaware 10299</div>
+            </div>
+            <div class="contact__column contact__lviv">
+              <div class="contact__title title-four">Lviv</div>
+              <div class="contact__text text">(209) 555-01046391 Elgin St. Celina, Delaware 10299</div>
+            </div>
+            <div class="contact__column contact__kharkiv">
+              <div class="contact__title title-four">Kharkiv</div>
+              <div class="contact__text text"> (209) 555-01046391 Elgin St. Celina, Delaware 10299 </div>
+            </div>
+            <div class="contact__info-row">
+              <a href="#" class=" contact__link">Fb</a>
+              <a href="#" class=" contact__link">In</a>
+              <a href="#" class=" contact__link">Be</a>
+              <div class=" contact__email">info@gmail.com</div>
+            </div>
+            <div class="contact__button"><a href="#" class="button">Make request</a></div>
+          </div>
+        </div>
+      </main> 
+    </div>
+    
+    
+
+    
+    <footer class="footer">
+      <div class="footer__left-text text">© Copyright 2018. All rights reserved</div>
+      <div class="footer__rigth-tetx text">Made with love in</div>
+      <div class="footer__the-first">The First</div>
+      <div class="footer__the-last">The Last.</div>
+    </footer>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

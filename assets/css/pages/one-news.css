@@ -72,28 +72,37 @@
 /*_____________________________________________________________________________________menu________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________links_______________________________________________________________________________________________*/
 .links {
+    padding-top: 8px;
     height: 58px;
     display: -ms-flexbox;
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.66%;
     -ms-flex-direction: column;
     flex-direction: column;
+    width: 100%;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.links img {
+    max-width: 24px;
+    padding-left: 2px;
 }
 
 /*_____________________________________________________________________________________links_______________________________________________________________________________________________*/
 /*____________________________________________________________________________________header_______________________________________________________________________________________________*/
 .header {
     display: grid;
-    grid-template: 208px auto 32px auto 96px/1fr minmax(auto, 197px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
-    -ms-flex-align: center;
-    align-items: center;
+    grid-template: 208px auto 20px auto 96px/1fr minmax(auto, 197px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
 }
 
 .header__title {
     grid-column: 3;
     grid-row: 2;
     max-width: 474px;
+    line-height: 44px;
 }
 
 .header__text {
@@ -110,13 +119,14 @@
 /*______________max-width: 1024px______________*/
 @media (max-width: 1024px) {
     .header {
-        grid-template: 162px auto 32px auto 80px/15.5% 1fr 15.5%;
+        grid-template: 152px auto 19px auto 73px/15.5% 1fr 15.5%;
     }
 
     .header__title {
         grid-column: 2;
         grid-row: 2;
         max-width: 433px;
+        line-height: 41px;
     }
 
     .header__text {
@@ -131,7 +141,7 @@
 /*_____________max-width: 768px_______________*/
 @media (max-width: 768px) {
     .header {
-        grid-template: 138px auto 24px auto 72px/16.14% 1fr 16.14%;
+        grid-template: 138px auto 10px auto 65px/16.14% 1fr 16.14%;
     }
 
     .header__title {
@@ -141,11 +151,13 @@
 /*______________max-width: 480px______________*/
 @media (max-width: 580px) {
     .header {
-        grid-template: 116px auto 24px auto 64px/6.4% 1fr 6.4%;
+        grid-template: 116px auto 15px auto 56px/6.4% 1fr 6.4%;
     }
 
     .header__title {
         max-width: 417px;
+        font-size: 26px;
+        line-height: 32px;
     }
 }
 /*____________________________________________________________________________________header_______________________________________________________________________________________________*/
@@ -187,13 +199,14 @@
 /*_________________________________________________________________________________block-text______________________________________________________________________________________________*/
 .block-text {
     display: grid;
-    grid-template: 96px auto 17px auto 40px auto 40px auto 96px/1fr minmax(auto, 197px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
+    grid-template: 94px auto 17px auto 40px auto 50px auto 78px/1fr minmax(auto, 197px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
 }
 
 .block-text__title {
     grid-column: 3;
     grid-row: 2;
     color: #080808;
+    max-width: 419px;
 }
 
 .block-text__text {
@@ -241,7 +254,7 @@
 @media (max-width: 1024px) {
     .block-text {
         display: grid;
-        grid-template: 88px auto 24px auto 32px auto 32px auto 88px/15.5% 1fr 15.5%;
+        grid-template: 88px auto 20px auto 22px auto 20px auto 80px/15.5% 1fr 15.5%;
     }
 
     .block-text__title {
@@ -268,7 +281,7 @@
 @media (max-width: 768px) {
     .block-text {
         display: grid;
-        grid-template: 72px auto 24px auto 32px auto 32px auto 72px/16.14% 1fr 16.14%;
+        grid-template: 72px auto 20px auto 32px auto 22px auto 74px/16.14% 1fr 16.14%;
     }
 
     .block-text__list p {
@@ -279,7 +292,7 @@
 @media (max-width: 580px) {
     .block-text {
         display: grid;
-        grid-template: 64px auto 24px auto 32px auto 32px auto 64px/6.4% 1fr 6.4%;
+        grid-template: 64px auto 19px auto 20px auto 24px auto 42px/6.4% 1fr 6.4%;
     }
 }
 /*_________________________________________________________________________________block-text________________________________________________________________________________________________*/
@@ -323,25 +336,63 @@
 /*______________max-width: 480px______________*/
 @media (max-width: 580px) {
     .projects {
-        grid-template: 220px 8px 393px 8px 392px/6.4% 1fr 6.4%;
+        grid-template: 220px 8px 393px 8px 392px/1fr;
     }
 
     .projects__card--one {
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 1;
     }
 
     .projects__card--two {
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 3;
     }
 
     .projects__card--three {
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 5;
     }
 }
 /*__________________________________________________________________________________projects__________________________________________________________________________________________________*/
+@media (max-width: 1024px) {
+    .block-text--next {
+        display: grid;
+        grid-template: 88px auto 20px auto 33px auto 20px auto 40px/15.5% 1fr 15.5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .block-text--next {
+        grid-template: 72px auto 20px auto 32px auto 22px auto 35px/16.14% 1fr 16.14%;
+    }
+}
+
+@media (max-width: 480px) {
+    .block-text--next {
+        grid-template: 62px auto 20px auto 32px auto 22px auto 28px/6.4% 1fr 6.4%;
+    }
+
+    .block-text--next .block-text__title {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .block-text--next .block-text__text {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .block-text--next .block-text__list {
+        grid-column: 2;
+        grid-row: 6;
+    }
+
+    .block-text--next .block-text__text-two {
+        grid-column: 2;
+        grid-row: 8;
+    }
+}
 /*__________________________________________________________________________________links-copy________________________________________________________________________________________________*/
 .links-copy {
     display: none;
@@ -376,7 +427,7 @@
 /*_______________________________________________________________________________our-latest-news______________________________________________________________________________________________*/
 .our-latest-news {
     display: grid;
-    grid-template: 237px auto 72px minmax(450px, auto) 215px/1fr minmax(auto, 202px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
+    grid-template: 137px auto 70px minmax(450px, auto) 210px/1fr minmax(auto, 202px) minmax(500px, 715px) minmax(auto, 208px) 120px minmax(auto, 199px) 1fr;
     justify-items: start;
 }
 
@@ -388,6 +439,10 @@
 .our-latest-news__slider {
     grid-column: 3/8;
     grid-row: 4;
+}
+
+.our-latest-news span {
+    display: inline;
 }
 
 .swiper-one-news {
@@ -422,7 +477,7 @@
 @media (max-width: 1024px) {
     .our-latest-news {
         display: grid;
-        grid-template: 213px auto 64px minmax(422px, auto) 199px/15.5% 1fr 15.5%;
+        grid-template: 213px auto 54px minmax(422px, auto) 199px/15.5% 1fr 15.5%;
     }
 
     .our-latest-news__title {
@@ -452,7 +507,7 @@
 @media (max-width: 768px) {
     .our-latest-news {
         display: grid;
-        grid-template: 177px auto 56px minmax(511px, auto) 179px/16.14% 1fr 16.14%;
+        grid-template: 177px auto 46px minmax(511px, auto) 179px/16.14% 1fr 16.14%;
     }
 
     .swiper-one-news {
@@ -475,9 +530,13 @@
         grid-template: 145px auto 40px minmax(418px, auto) 180px/6.4% 1fr 6.4%;
     }
 
+    .our-latest-news span {
+        display: none;
+    }
+
     .swiper-one-news {
         width: 1238px;
-        height: 418px;
+        height: 405px;
     }
 
     .swiper-slide__body {

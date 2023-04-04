@@ -1,1 +1,300 @@
-.nav-scrolled{background-color:#e5e5e5}.text{color:#080808}.menu{background-color:#e5e5e5}.menu__link,.menu__link-menu{color:#080808}.menu__link--button{border:1px solid #080808}.menu__burger{height:38px;width:38px;cursor:pointer;position:relative}.menu__burger:after,.menu__burger:before{background-color:#080808}.menu:hover{background-color:#e5e5e5}.active{background-color:hsla(0,0%,90%,0)}.active .menu__link--button{border:1px solid #e5e5e5}.active .menu__burger:after,.active .menu__burger:before{background-color:#e5e5e5}.active .menu__link{color:#e5e5e5}.active:hover{background-color:hsla(0,0%,90%,0)}.projects{margin:0 auto;grid-template:653px 8px 653px 8px 653px 8px 653px/minmax(auto,653px) 8px minmax(auto,653px)}.projects__style-home-two{background:url(../../images/interior/7.jpg) 50%/cover no-repeat;display:none}.projects__hillside{display:grid;grid-column:3;grid-row:5}.projects__lighthouse-two{grid-column:1/4;grid-row:7;background:url(../../images/interior/4.jpg) 25% 50%/cover no-repeat}.active-two .projects__eyewear-store{grid-column:3;grid-row:3}.active-two .projects__style-home{grid-column:1;grid-row:3}.active-two .projects__lighthouse{grid-column:1/4;grid-row:1}.active-two .projects__eyewear-store-two{grid-column:1;grid-row:7}.active-two .projects__hillside{grid-column:3;grid-row:7}.active-two .projects__lighthouse-two{grid-column:1/4;grid-row:5}.active-three .projects__eyewear-store{grid-column:1;grid-row:3}.active-three .projects__style-home{grid-column:3;grid-row:3}.active-three .projects__lighthouse{grid-column:1/4;grid-row:7}.active-three .projects__eyewear-store-two{grid-column:1;grid-row:5}.active-three .projects__hillside{grid-column:3;grid-row:5}.active-three .projects__lighthouse-two{grid-column:1/4;grid-row:1}.active-four .projects__eyewear-store{grid-column:3;grid-row:1}.active-four .projects__style-home{grid-column:1;grid-row:1}.active-four .projects__lighthouse{grid-column:1/4;grid-row:3}.active-four .projects__eyewear-store-two{grid-column:3;grid-row:5}.active-four .projects__hillside{grid-column:1;grid-row:5}.active-four .projects__lighthouse-two{grid-column:1/4;grid-row:7}@media (max-width:1025px){.projects{grid-template:453px 6px 453px 6px 453px 6px 453px/minmax(auto,453px) 6px minmax(auto,453px)}}@media (max-width:768px){.projects{grid-template:87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw/1fr}.projects__hillside{grid-column:1;grid-row:7;display:none}.projects__style-home-two{display:block;grid-column:1;grid-row:7}.projects__lighthouse-two{grid-column:1;grid-row:11}.projects__eyewear-store-two{grid-column:1;grid-row:9}.active-two .projects__eyewear-store{grid-column:1;grid-row:3}.active-two .projects__style-home{grid-column:1;grid-row:5}.active-two .projects__lighthouse{grid-column:1;grid-row:1}.active-two .projects__eyewear-store-two{grid-column:1;grid-row:7}.active-two .projects__hillside{grid-column:1;grid-row:9;display:grid}.active-two .projects__lighthouse-two{grid-column:1;grid-row:11}.active-three .projects__eyewear-store{grid-column:1;grid-row:5}.active-three .projects__style-home{grid-column:1;grid-row:3}.active-three .projects__lighthouse{grid-column:1;grid-row:11}.active-three .projects__eyewear-store-two{grid-column:1;grid-row:7}.active-three .projects__hillside{grid-column:1;grid-row:9;display:grid}.active-three .projects__lighthouse-two{grid-column:1;grid-row:1}.active-four .projects__eyewear-store{grid-column:1;grid-row:5}.active-four .projects__style-home{grid-column:1;grid-row:1}.active-four .projects__lighthouse{grid-column:1;grid-row:3}.active-four .projects__eyewear-store-two{grid-column:1;grid-row:7}.active-four .projects__hillside{grid-column:1;grid-row:9;display:grid}.active-four .projects__lighthouse-two{grid-column:1;grid-row:11}}.image-row{max-width:1400px;margin:0 auto}.image-row__title,.image-row__title-text{color:#080808}.image-row__button .button{background-color:#e5e5e5}.footer__the-first,.footer__the-last{color:#080808}
+.nav-scrolled {
+  background-color: #e5e5e5;
+}
+
+.text {
+  color: #080808;
+}
+
+.menu {
+  background-color: #e5e5e5;
+}
+.menu__link {
+  color: #080808;
+}
+.menu__link-menu {
+  color: #080808;
+}
+.menu__link--button {
+  border: 1px solid #080808;
+}
+.menu__burger {
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+  position: relative;
+}
+.menu__burger::after {
+  background-color: #080808;
+}
+.menu__burger::before {
+  background-color: #080808;
+}
+.menu:hover {
+  background-color: #e5e5e5;
+}
+
+.active {
+  background-color: rgba(229, 229, 229, 0);
+}
+.active .menu__link--button {
+  border: 1px solid #e5e5e5;
+}
+.active .menu__burger::after {
+  background-color: #e5e5e5;
+}
+.active .menu__burger::before {
+  background-color: #e5e5e5;
+}
+.active .menu__link {
+  color: #e5e5e5;
+}
+.active:hover {
+  background-color: rgba(229, 229, 229, 0);
+}
+
+/*_____________________________________________________________________________________menu__________________________________________________________________________________________________*/
+/*___________________________________________________________________________________projects________________________________________________________________________________________________*/
+.projects {
+  margin: 0 auto;
+  grid-template: 653px 8px 653px 8px 653px 8px 653px/minmax(auto, 653px) 8px minmax(auto, 653px);
+}
+.projects__style-home-two {
+  background: url(../../images/interior/7.jpg) center/cover no-repeat;
+  display: none;
+}
+.projects__hillside {
+  display: grid;
+  grid-column: 3;
+  grid-row: 5;
+}
+.projects__lighthouse-two {
+  grid-column: 1/4;
+  grid-row: 7;
+  background: url(../../images/interior/4.jpg) 25% 50%/cover no-repeat;
+}
+
+.active-two .projects__eyewear-store {
+  grid-column: 3;
+  grid-row: 3;
+}
+.active-two .projects__style-home {
+  grid-column: 1;
+  grid-row: 3;
+}
+.active-two .projects__lighthouse {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+.active-two .projects__eyewear-store-two {
+  grid-column: 1;
+  grid-row: 7;
+}
+.active-two .projects__hillside {
+  grid-column: 3;
+  grid-row: 7;
+}
+.active-two .projects__lighthouse-two {
+  grid-column: 1/4;
+  grid-row: 5;
+}
+
+.active-three .projects__eyewear-store {
+  grid-column: 1;
+  grid-row: 3;
+}
+.active-three .projects__style-home {
+  grid-column: 3;
+  grid-row: 3;
+}
+.active-three .projects__lighthouse {
+  grid-column: 1/4;
+  grid-row: 7;
+}
+.active-three .projects__eyewear-store-two {
+  grid-column: 1;
+  grid-row: 5;
+}
+.active-three .projects__hillside {
+  grid-column: 3;
+  grid-row: 5;
+}
+.active-three .projects__lighthouse-two {
+  grid-column: 1/4;
+  grid-row: 1;
+}
+
+.active-four .projects__eyewear-store {
+  grid-column: 3;
+  grid-row: 1;
+}
+.active-four .projects__style-home {
+  grid-column: 1;
+  grid-row: 1;
+}
+.active-four .projects__lighthouse {
+  grid-column: 1/4;
+  grid-row: 3;
+}
+.active-four .projects__eyewear-store-two {
+  grid-column: 3;
+  grid-row: 5;
+}
+.active-four .projects__hillside {
+  grid-column: 1;
+  grid-row: 5;
+}
+.active-four .projects__lighthouse-two {
+  grid-column: 1/4;
+  grid-row: 7;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*______________max-width: 1025px______________*/
+@media (max-width: 1025px) {
+  .projects {
+    grid-template: 453px 6px 453px 6px 453px 6px 453px/minmax(auto, 453px) 6px minmax(auto, 453px);
+  }
+}
+/*______________max-width: 768px______________*/
+@media (max-width: 768px) {
+  .projects {
+    grid-template: 87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw 6px 87.5vw/1fr;
+  }
+  .projects__hillside {
+    grid-column: 1;
+    grid-row: 7;
+    display: none;
+  }
+  .projects__style-home-two {
+    display: block;
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .projects__lighthouse-two {
+    grid-column: 1;
+    grid-row: 11;
+  }
+  .projects__eyewear-store-two {
+    grid-column: 1;
+    grid-row: 9;
+  }
+  .active-two .projects__eyewear-store {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .active-two .projects__style-home {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .active-two .projects__lighthouse {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .active-two .projects__eyewear-store-two {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .active-two .projects__hillside {
+    grid-column: 1;
+    grid-row: 9;
+    display: grid;
+  }
+  .active-two .projects__lighthouse-two {
+    grid-column: 1;
+    grid-row: 11;
+  }
+  .active-three .projects__eyewear-store {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .active-three .projects__style-home {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .active-three .projects__lighthouse {
+    grid-column: 1;
+    grid-row: 11;
+  }
+  .active-three .projects__eyewear-store-two {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .active-three .projects__hillside {
+    grid-column: 1;
+    grid-row: 9;
+    display: grid;
+  }
+  .active-three .projects__lighthouse-two {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .active-four .projects__eyewear-store {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .active-four .projects__style-home {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .active-four .projects__lighthouse {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .active-four .projects__eyewear-store-two {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .active-four .projects__hillside {
+    grid-column: 1;
+    grid-row: 9;
+    display: grid;
+  }
+  .active-four .projects__lighthouse-two {
+    grid-column: 1;
+    grid-row: 11;
+  }
+}
+/*___________________________________________________________________________________projects________________________________________________________________________________________________*/
+/*__________________________________________________________________________________image-row________________________________________________________________________________________________*/
+.image-row {
+  grid-template: 175px 154px 25px 96px 41px 48px 230px/minmax(50px, 1fr) 424px minmax(auto, 283px) 183px 156px minmax(50px, 1fr);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.image-row__title {
+  color: #080808;
+}
+.image-row__title-text {
+  color: #080808;
+}
+.image-row__button .button {
+  background-color: #E5E5E5;
+}
+.image-row__img {
+  padding-bottom: 26px;
+}
+
+@media (max-width: 1025px) {
+  .image-row {
+    grid-template: 120px auto 24px auto 68px 42px 175px/minmax(30px, 1fr) minmax(auto, 455px) minmax(30px, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .image-row {
+    grid-template: 87px auto 24px auto 32px 42px 155px/6.4% minmax(auto, 455px) 6.4%;
+  }
+  .image-row__title {
+    width: 100%;
+  }
+  .image-row__title-text {
+    max-width: 327px;
+  }
+}
+/*__________________________________________________________________________________footer____________________________________________________________________________________________________*/
+.footer__the-first {
+  color: #080808;
+}
+.footer__the-last {
+  color: #080808;
+}

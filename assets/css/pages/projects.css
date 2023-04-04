@@ -310,7 +310,8 @@
 /*___________________________________________________________________________________projects________________________________________________________________________________________________*/
 /*__________________________________________________________________________________image-row________________________________________________________________________________________________*/
 .image-row {
-    max-width: 1400px;
+    grid-template: 175px 154px 25px 96px 41px 48px 230px/minmax(50px, 1fr) 424px minmax(auto, 283px) 183px 156px minmax(50px, 1fr);
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -326,6 +327,29 @@
     background-color: #E5E5E5;
 }
 
+.image-row__img {
+    padding-bottom: 26px;
+}
+
+@media (max-width: 1025px) {
+    .image-row {
+        grid-template: 120px auto 24px auto 68px 42px 175px/minmax(30px, 1fr) minmax(auto, 455px) minmax(30px, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .image-row {
+        grid-template: 87px auto 24px auto 32px 42px 155px/6.4% minmax(auto, 455px) 6.4%;
+    }
+
+    .image-row__title {
+        width: 100%;
+    }
+
+    .image-row__title-text {
+        max-width: 327px;
+    }
+}
 /*__________________________________________________________________________________footer____________________________________________________________________________________________________*/
 .footer__the-first {
     color: #080808;

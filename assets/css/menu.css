@@ -4,7 +4,7 @@
     z-index: 10;
     top: 0;
     width: 100%;
-    grid-template: 1fr/1fr minmax(auto, 1400px) 1fr;
+    grid-template: 1fr/1fr minmax(auto, 1440px) 1fr;
     padding: 24px 0 16px;
 }
 
@@ -94,6 +94,15 @@
     display: none;
 }
 
+.menu__burger-menu {
+    display: none;
+    color: #FFFFFF;
+}
+
+.menu____burger-body {
+    display: none;
+}
+
 .menu__link--logo {
     font-family: "Montserrat";
     font-style: normal;
@@ -105,8 +114,9 @@
 }
 
 .menu__link--button {
+    box-sizing: border-box;
     cursor: pointer;
-    line-height: 48px;
+    line-height: 46px;
     width: 183px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.32);
@@ -123,11 +133,11 @@
 /*____________________________________________max-width: 1024px___________________________________________________*/
 @media (max-width: 1024px) {
     .menu {
-        padding: 32px 0 14px;
+        padding: 24px 0 14px;
     }
 
     .menu__row {
-        grid-template: 1fr/54px 60px minmax(auto, 97px) 28px minmax(auto, 498px) 17px minmax(auto, 56px) 158px 54px;
+        grid-template: 1fr/54px 60px minmax(auto, 93px) 91px minmax(auto, 498px) 17px minmax(auto, 56px) 160px 54px;
     }
 
     .menu__link:nth-child(1) {
@@ -153,6 +163,20 @@
     .menu__link:nth-child(5) {
         grid-row: 1;
         grid-column: 4;
+    }
+
+    .menu__burger-body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu__burger-menu {
+        padding-bottom: 2px;
     }
 
     .menu__list {
@@ -208,6 +232,11 @@
         width: 158px;
     }
 
+    .menu__burger-menu {
+        display: block;
+        grid-column: 4;
+    }
+
     .menu__burger {
         height: 38px;
         width: 38px;
@@ -219,7 +248,7 @@
         content: "";
         position: absolute;
         left: 5px;
-        top: 15px;
+        top: 13px;
         background-color: #ffffff;
         width: 28px;
         height: 1px;
@@ -232,7 +261,7 @@
         content: "";
         position: absolute;
         left: 5px;
-        top: 23px;
+        top: 20px;
         background-color: #ffffff;
         width: 28px;
         height: 1px;
@@ -272,11 +301,35 @@
 /*____________________________________________max-width: 768px___________________________________________________*/
 @media (max-width: 768px) {
     .menu__row {
-        grid-template: 1fr/48px 60px minmax(20px, 141px) minmax(auto, 338px) minmax(50px, 492px) 17px minmax(auto, 83px) 183px 48px;
+        grid-template: 1fr/48px 60px minmax(20px, 89px) 87px minmax(50px, 492px) 17px minmax(auto, 54px) 160px 48px;
     }
 
     .menu__list {
         grid-template: minmax(100px, 1fr) minmax(20px, 41px) 31px minmax(20px, 41px) 31px minmax(20px, 41px) 31px minmax(20px, 41px) 31px minmax(50px, 1fr) 24px 40px/24.5% 1fr;
+    }
+
+    .menu__burger-body {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu__burger-menu {
+        padding-bottom: 0px;
+    }
+
+    .menu__burger::after {
+        left: 5px;
+        top: 15px;
+    }
+
+    .menu__burger::before {
+        left: 5px;
+        top: 23px;
     }
 }
 /*____________________________________________max-width: 600px___________________________________________________*/
@@ -287,6 +340,10 @@
 }
 /*____________________________________________max-width: 480px___________________________________________________*/
 @media (max-width: 480px) {
+    .menu {
+        padding: 12px 0 16px;
+    }
+
     .menu .contact-row {
         grid-row: 14;
     }
@@ -336,8 +393,12 @@
         grid-column: 1 !important;
     }
 
+    .menu__burger-menu {
+        display: none;
+    }
+
     .menu__row {
-        grid-template: 1fr/minmax(auto, 24px) 60px 1fr 17px minmax(auto, 15.2%) 28px minmax(auto, 24px);
+        grid-template: 1fr/minmax(auto, 24px) 60px 1fr 17px minmax(auto, 13%) 22px minmax(auto, 32px);
         position: static;
     }
 

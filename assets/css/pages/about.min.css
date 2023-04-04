@@ -1,1 +1,586 @@
-.nav-scrolled{background-color:#e5e5e5}.text{color:#080808}.menu{background-color:#e5e5e5}.menu__link,.menu__link-menu{color:#080808}.menu__link--button{border:1px solid #080808}.menu__burger{height:38px;width:38px;cursor:pointer;position:relative}.menu__burger:after,.menu__burger:before{background-color:#080808}.menu:hover{background-color:#e5e5e5}.header{margin:96px 0 140px;background:url(../../images/interior/1.jpg) 50%/cover no-repeat;min-height:648px;display:grid;grid-template:1fr auto 24px auto 1fr/minmax(6.4%,1fr) auto minmax(6.4%,1fr);text-align:center}.header__title{grid-row:2}.header__text,.header__title{grid-column:2;max-width:383px}.header__text{color:#fff;grid-row:4}@media (max-width:1024px){.header{margin:85px 0 10%}.active{background-color:hsla(0,0%,90%,0)}.active .menu__link--button{border:1px solid #e5e5e5}.active .menu__burger:after,.active .menu__burger:before{background-color:#e5e5e5}.active .menu__link{color:#e5e5e5}.active:hover{background-color:hsla(0,0%,90%,0)}}@media (max-width:768px){.header{min-height:548px}}@media (max-width:480px){.header{min-height:448px}}.company-info{margin:0 0 140px;display:grid;grid-template:minmax(auto,98px) auto 24px auto minmax(auto,49px) 8px minmax(auto,98px)/minmax(6.4%,1fr) minmax(auto,383px) minmax(auto,132px) 50vw}.company-info__title{color:#080808;grid-column:2;grid-row:2}.company-info__text{grid-column:2;grid-row:4}.company-info__pagination{grid-column:2;grid-row:6}.company-info__swiper-pagination{top:4px!important}.company-info__slider{grid-column:4;grid-row:1/8;overflow:hidden;max-width:50vw;right:0}.company-info__swiper{width:1812px}.company-info__swiper-slide img{height:552px;width:444px;object-fit:cover}.company-info strong{color:#828282;font-weight:500}.company-info .swiper-pagination-horizontal{height:1px!important;--swiper-theme-color:#828282}@media (max-width:910px){.company-info{margin:0 0 10%;grid-template:minmax(auto,98px) auto 6.4% auto 6.4vw 8px 10vw auto/6.4% 1fr 3fr 1fr 6.4%;justify-items:center}.company-info__title{grid-column:3;grid-row:2}.company-info__text{grid-column:3;grid-row:4}.company-info__pagination{grid-column:3;grid-row:6}.company-info__slider{grid-column:2/5;grid-row:8;max-width:100%}.company-info__swiper-slide img{height:58vw;width:444px;object-fit:cover}}.company-numbers{margin:0 0 140px;display:grid;grid-template:90px 69px 5px 37px 44px 69px 5px 37px 75px minmax(85px,auto) 91px 40px/1fr minmax(auto,130px) minmax(300px,516px) minmax(auto,132px) auto minmax(auto,79px) auto minmax(auto,71px) minmax(auto,112px) 168px 1fr}.company-numbers__image{grid-column:3;grid-row:1/12}.company-numbers__image-min{grid-column:10;grid-row:11/13}.company-numbers__numder--one{grid-column:5;grid-row:2}.company-numbers__numder--two{grid-column:7;grid-row:2}.company-numbers__numder--three{grid-column:5;grid-row:6}.company-numbers__numder--four{grid-column:7;grid-row:6}.company-numbers__numder-text--one{grid-column:5;grid-row:3;max-width:100px;line-height:132%}.company-numbers__numder-text--two{grid-column:7;grid-row:3;max-width:100px;line-height:132%}.company-numbers__numder-text--three{grid-column:5;grid-row:7;max-width:100px;line-height:132%}.company-numbers__numder-text--four{grid-column:7;grid-row:7;max-width:100px;line-height:132%}.company-numbers__text{grid-column:5/8;grid-row:10;max-width:382px}.company-numbers img{max-width:100%;height:100%;object-fit:cover}@media (max-width:910px){.company-numbers{margin:0 0 10%;grid-template:auto 90px 69px 5px 37px 44px 69px 5px 37px 6.4vw minmax(85px,auto) 91px 40px/minmax(6.4%,1fr) minmax(auto,168px) minmax(auto,50px) minmax(auto,71px) auto minmax(auto,79px) auto minmax(auto,71px) minmax(auto,50px) minmax(auto,168px) minmax(6.4%,1fr)}.company-numbers__image{grid-column:2/11;grid-row:1}.company-numbers__image-min{grid-column:8/11;grid-row:12/14;max-height:300px}.company-numbers__numder--one{grid-column:3;grid-row:3}.company-numbers__numder--two{grid-column:9/11;grid-row:3}.company-numbers__numder--three{grid-column:3;grid-row:7}.company-numbers__numder--four{grid-column:9/11;grid-row:7}.company-numbers__numder-text--one{grid-column:3;grid-row:4}.company-numbers__numder-text--two{grid-column:9/11;grid-row:4}.company-numbers__numder-text--three{grid-column:3;grid-row:8}.company-numbers__numder-text--four{grid-column:9/11;grid-row:8}.company-numbers__text{grid-column:2/9;grid-row:11;max-width:382px}}@media (max-width:600px){.company-numbers{grid-template:auto 90px 69px 5px 37px 44px 69px 5px 37px 6.4vw minmax(85px,auto) 6.4vw/minmax(6.4%,1fr) minmax(auto,168px) minmax(auto,50px) minmax(auto,71px) auto minmax(auto,79px) auto minmax(auto,71px) minmax(auto,50px) minmax(70px,168px) minmax(6.4%,1fr)}.company-numbers__text{grid-column:2/8;grid-row:11;max-width:382px;padding-right:25px}.company-numbers__image-min{grid-column:8/11;grid-row:11}}.company-roman-viktorovich{margin:0 0 140px;display:grid;grid-template-rows:66px auto 32px 41px 56px minmax(137px,auto) minmax(auto,164px) 76px 100px 69px 5px 37px 56px 37px minmax(108px,auto);grid-template-columns:1fr minmax(auto,198px) minmax(auto,65px) minmax(auto,250px) minmax(auto,133px) minmax(auto,132px) auto minmax(auto,79px) auto minmax(auto,79px) auto minmax(auto,102px) minmax(auto,146px) 1fr}.company-roman-viktorovich__title{color:#080808;grid-column:4/6;grid-row:2}.company-roman-viktorovich__title-info{color:#080808;grid-column:4/6;grid-row:4}.company-roman-viktorovich__text{grid-column:4/6;grid-row:6}.company-roman-viktorovich__image-man{grid-column:7/13;grid-row:1/9}.company-roman-viktorovich__image-people{grid-column:3/5;grid-row:8/15}.company-roman-viktorovich__number--one{grid-column:7;grid-row:10}.company-roman-viktorovich__number--two{grid-column:9;grid-row:10}.company-roman-viktorovich__number--three{grid-column:11;grid-row:10}.company-roman-viktorovich__number-info--one{grid-column:7;grid-row:12;max-width:100px}.company-roman-viktorovich__number-info--two{grid-column:9;grid-row:12;max-width:94px}.company-roman-viktorovich__number-info--three{grid-column:11;grid-row:12;max-width:81px}.company-roman-viktorovich__next-text{grid-column:7/13;grid-row:14;max-width:516px}.company-roman-viktorovich img{max-width:100%;width:100%;height:100%;object-fit:cover}@media (max-width:910px){.company-roman-viktorovich{margin:0 0 10%;grid-template-rows:66px auto 32px 41px 56px minmax(137px,auto) minmax(auto,11vw) 76px 7vw 69px 5px 37px 56px 37px minmax(108px,auto);grid-template-columns:1fr minmax(auto,198px) minmax(auto,65px) minmax(auto,250px) 9.5vw minmax(auto,132px) auto minmax(auto,79px) auto minmax(auto,79px) auto minmax(auto,102px) minmax(auto,146px) 1fr}}@media (max-width:600px){.company-roman-viktorovich{grid-template-rows:58vw 66px auto 32px 41px 6.4vw auto 6.4vw 76px 5px 69px 6.4vw 100px 6.4vw auto;grid-template-columns:6.4% minmax(30px,1fr) auto minmax(auto,20px) auto minmax(auto,20px) auto 1fr 6.4%}.company-roman-viktorovich__title{grid-column:2/8;grid-row:3}.company-roman-viktorovich__title-info{grid-column:2/8;grid-row:5}.company-roman-viktorovich__text{grid-column:2/8;grid-row:7}.company-roman-viktorovich__image-man{grid-column:2/9;grid-row:1}.company-roman-viktorovich__image-man img{object-position:0 0}.company-roman-viktorovich__image-people{grid-column:4/7;grid-row:13}.company-roman-viktorovich__image-people img{max-height:300px}.company-roman-viktorovich__number--one{grid-column:3;grid-row:9}.company-roman-viktorovich__number--two{grid-column:5;grid-row:9}.company-roman-viktorovich__number--three{grid-column:7;grid-row:9}.company-roman-viktorovich__number-info--one{grid-column:3;grid-row:11;max-width:100%}.company-roman-viktorovich__number-info--two{grid-column:5;grid-row:11;max-width:100%}.company-roman-viktorovich__number-info--three{grid-column:7;grid-row:11;max-width:100%}.company-roman-viktorovich__next-text{grid-column:2/9;grid-row:16}}@media (max-width:380px){.company-roman-viktorovich__image-people{grid-column:2/9;grid-row:13}}.wrapper-bg{background:#080808;width:100%;margin:0 0 140px}.lorem__img{filter:drop-shadow(0 0 64px rgba(183,183,183,.16))}.lorem__text,.lorem__title{color:#fff}@media (max-width:910px){.wrapper-bg{margin:0 0 10%}}.work-out-team{display:grid;grid-template:auto 128px 37px minmax(35px,auto) 20px 20px 187px/1fr minmax(auto,199px) minmax(300px,424px) minmax(auto,238px) minmax(200px,288px) 16px 16px 13px 16px 17px minmax(auto,213px) 1fr;font-size:11}.work-out-team__title{grid-column:3;grid-row:1;color:#080808}.work-out-team__email{grid-column:3;grid-row:3}.work-out-team__text{grid-column:5/11;grid-row:3/5}.work-out-team__contact-email{grid-column:5;grid-row:6}.work-out-team__contact--fb{grid-column:6;grid-row:6}.work-out-team__contact--in{grid-column:8;grid-row:6}.work-out-team__contact--be{grid-column:10;grid-row:6}@media (max-width:910px){.work-out-team{grid-template:auto 9vw 37px 6.4vw auto 20px 20px minmax(100px,13.6vw)/6.4% 1fr 16px 16px 13px 16px 17px 6.4%;font-size:11}.work-out-team__title{grid-column:2/8;grid-row:1}.work-out-team__email{grid-column:2/8;grid-row:3;max-width:400px}.work-out-team__text{grid-column:2/8;grid-row:5}.work-out-team__contact-email{grid-column:2/8;grid-row:7}.work-out-team__contact--fb{grid-column:3;grid-row:7}.work-out-team__contact--in{grid-column:5;grid-row:7}.work-out-team__contact--be{grid-column:7;grid-row:7}}.footer__the-first,.footer__the-last{color:#080808}
+.nav-scrolled {
+  background-color: #e5e5e5;
+}
+
+.text {
+  color: #080808;
+}
+
+.menu {
+  background-color: #e5e5e5;
+}
+.menu__link {
+  color: #080808;
+}
+.menu__link-menu {
+  color: #080808;
+}
+.menu__link--button {
+  border: 1px solid #080808;
+}
+.menu__burger {
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+  position: relative;
+}
+.menu__burger::after {
+  background-color: #080808;
+}
+.menu__burger::before {
+  background-color: #080808;
+}
+.menu:hover {
+  background-color: #e5e5e5;
+}
+
+.header {
+  margin: 96px 0 140px;
+  background: url(../../images/interior/1.jpg) center/cover no-repeat;
+  min-height: 648px;
+  display: grid;
+  grid-template: 35.2% auto 14px auto 1fr/minmax(6.4%, 1fr) auto minmax(6.4%, 1fr);
+  text-align: center;
+}
+.header__title {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 383px;
+  line-height: 44px;
+}
+.header__text {
+  color: #FFFFFF;
+  grid-column: 2;
+  grid-row: 4;
+  max-width: 383px;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 1024px_______________*/
+@media (max-width: 1024px) {
+  .header {
+    margin: 85px 0 10% 0;
+  }
+  .active {
+    background-color: rgba(229, 229, 229, 0);
+  }
+  .active .menu__link--button {
+    border: 1px solid #e5e5e5;
+  }
+  .active .menu__burger::after {
+    background-color: #e5e5e5;
+  }
+  .active .menu__burger::before {
+    background-color: #e5e5e5;
+  }
+  .active .menu__link {
+    color: #e5e5e5;
+  }
+  .active:hover {
+    background-color: rgba(229, 229, 229, 0);
+  }
+}
+/*_____________max-width: 768px_______________*/
+@media (max-width: 768px) {
+  .header {
+    min-height: 548px;
+  }
+}
+/*_____________max-width: 480px_______________*/
+@media (max-width: 480px) {
+  .header {
+    min-height: 448px;
+  }
+}
+/*___________________________________________________________________________________header________________________________________________________________________________________________*/
+/*________________________________________________________________________________company-info_____________________________________________________________________________________________*/
+.company-info {
+  margin: 0 0 140px 0;
+  display: grid;
+  height: 444px;
+  grid-template: minmax(auto, 98px) 79px 24px minmax(85px, auto) 40px 8px 1fr/minmax(6.4%, 262px) minmax(auto, 383px) minmax(30px, auto) 46vw;
+}
+.company-info__title {
+  color: #080808;
+  grid-column: 2;
+  grid-row: 2;
+  line-height: 44px;
+}
+.company-info__text {
+  grid-column: 2;
+  grid-row: 4;
+}
+.company-info__pagination {
+  grid-column: 2;
+  grid-row: 6;
+}
+.company-info__swiper-pagination {
+  top: 4px !important;
+}
+.company-info__slider {
+  grid-column: 4;
+  grid-row: 1/8;
+  overflow: hidden;
+  max-width: 50vw;
+  right: 0;
+}
+.company-info__swiper {
+  width: 2244px;
+}
+.company-info__swiper-slide img {
+  height: 444px;
+  width: 552px;
+  object-fit: cover;
+}
+.company-info strong {
+  color: rgb(130, 130, 130);
+  font-weight: 500;
+}
+.company-info .swiper-pagination-horizontal {
+  height: 1px !important;
+  --swiper-theme-color: rgba(130, 130, 130, 1);
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 910px_______________*/
+@media (max-width: 910px) {
+  .company-info {
+    margin: 0 0 10% 0;
+    height: 100%;
+    grid-template: minmax(auto, 98px) auto 6.4% auto 6.4vw 8px 10vw 58vw auto/6.4% 1fr 3fr 1fr 6.4%;
+    justify-items: center;
+  }
+  .company-info__title {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .company-info__text {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  .company-info__pagination {
+    grid-column: 3;
+    grid-row: 6;
+  }
+  .company-info__slider {
+    grid-column: 2/5;
+    grid-row: 8;
+    width: 2244px;
+    max-width: 80vw;
+  }
+  .company-info__swiper-slide img {
+    height: 58vw;
+    width: 400px;
+    object-fit: cover;
+  }
+}
+/*________________________________________________________________________________company-info________________________________________________________________________________________________*/
+/*______________________________________________________________________________company-numbers_______________________________________________________________________________________________*/
+.company-numbers {
+  margin: 0 0 138px 0;
+  display: grid;
+  grid-template: 90px 69px 5px 37px 44px 69px 5px 37px 75px minmax(85px, auto) 82px 40px/1fr minmax(auto, 130px) auto minmax(auto, 132px) minmax(auto, 100px) minmax(auto, 79px) auto minmax(auto, 71px) minmax(auto, 40px) 168px 1fr;
+}
+.company-numbers__image {
+  grid-column: 3;
+  grid-row: 1/12;
+}
+.company-numbers__image-min {
+  grid-column: 10;
+  grid-row: 10/13;
+  max-width: 168px;
+}
+.company-numbers__numder--one {
+  grid-column: 5;
+  grid-row: 2;
+}
+.company-numbers__numder--two {
+  grid-column: 7;
+  grid-row: 2;
+}
+.company-numbers__numder--three {
+  grid-column: 5;
+  grid-row: 6;
+}
+.company-numbers__numder--four {
+  grid-column: 7;
+  grid-row: 6;
+}
+.company-numbers__numder-text--one {
+  grid-column: 5;
+  grid-row: 3;
+  max-width: 100px;
+  line-height: 132%;
+  padding-top: 4px;
+}
+.company-numbers__numder-text--two {
+  grid-column: 7;
+  grid-row: 3;
+  max-width: 100px;
+  line-height: 132%;
+  padding-top: 4px;
+}
+.company-numbers__numder-text--three {
+  grid-column: 5;
+  grid-row: 7;
+  max-width: 100px;
+  line-height: 132%;
+  padding-top: 4px;
+}
+.company-numbers__numder-text--four {
+  grid-column: 7;
+  grid-row: 7;
+  max-width: 95px;
+  line-height: 132%;
+  padding-top: 4px;
+}
+.company-numbers__text {
+  grid-column: 5/8;
+  grid-row: 10;
+  max-width: 382px;
+}
+.company-numbers img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 910px_______________*/
+@media (max-width: 910px) {
+  .company-numbers {
+    margin: 0 0 10% 0;
+    grid-template: auto 90px 69px 5px 37px 44px 69px 5px 37px 6.4vw minmax(85px, auto) 91px 40px/minmax(6.4%, 1fr) minmax(auto, 168px) minmax(auto, 50px) minmax(auto, 71px) auto minmax(auto, 79px) auto minmax(auto, 71px) minmax(auto, 50px) minmax(auto, 168px) minmax(6.4%, 1fr);
+  }
+  .company-numbers__image {
+    grid-column: 2/11;
+    grid-row: 1;
+  }
+  .company-numbers__image-min {
+    grid-column: 8/11;
+    grid-row: 12/14;
+    max-height: 300px;
+  }
+  .company-numbers__numder--one {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .company-numbers__numder--two {
+    grid-column: 9/11;
+    grid-row: 3;
+  }
+  .company-numbers__numder--three {
+    grid-column: 3;
+    grid-row: 7;
+  }
+  .company-numbers__numder--four {
+    grid-column: 9/11;
+    grid-row: 7;
+  }
+  .company-numbers__numder-text--one {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  .company-numbers__numder-text--two {
+    grid-column: 9/11;
+    grid-row: 4;
+  }
+  .company-numbers__numder-text--three {
+    grid-column: 3;
+    grid-row: 8;
+  }
+  .company-numbers__numder-text--four {
+    grid-column: 9/11;
+    grid-row: 8;
+  }
+  .company-numbers__text {
+    grid-column: 2/9;
+    grid-row: 11;
+    max-width: 382px;
+  }
+}
+/*_____________max-width: 600px_______________*/
+@media (max-width: 600px) {
+  .company-numbers {
+    grid-template: auto 90px 69px 5px 37px 44px 69px 5px 37px 6.4vw minmax(85px, auto) 6.4vw/minmax(6.4%, 1fr) minmax(auto, 168px) minmax(auto, 50px) minmax(auto, 71px) auto minmax(auto, 79px) auto minmax(auto, 71px) minmax(auto, 50px) minmax(70px, 168px) minmax(6.4%, 1fr);
+  }
+  .company-numbers__text {
+    grid-column: 2/8;
+    grid-row: 11;
+    max-width: 382px;
+    padding-right: 25px;
+  }
+  .company-numbers__image-min {
+    grid-column: 8/11;
+    grid-row: 11;
+  }
+}
+/*______________________________________________________________________________company-numbers_______________________________________________________________________________________________*/
+/*________________________________________________________________________company-roman-viktorovich___________________________________________________________________________________________*/
+.company-roman-viktorovich {
+  margin: 0 0 140px 0;
+  display: grid;
+  grid-template-rows: 64px auto 16px 38px 56px 1fr minmax(auto, 164px) 76px 100px 69px 5px 37px 56px 37px minmax(108px, auto);
+  grid-template-columns: 1fr minmax(auto, 114px) minmax(auto, 65px) minmax(auto, 250px) minmax(auto, 30px) minmax(auto, 132px) minmax(auto, 105px) minmax(auto, 79px) minmax(auto, 79px) minmax(auto, 79px) minmax(auto, 98px) minmax(auto, 174px) minmax(auto, 70px) 1fr;
+}
+.company-roman-viktorovich__title {
+  color: #080808;
+  grid-column: 4/7;
+  grid-row: 2;
+}
+.company-roman-viktorovich__title-info {
+  color: #080808;
+  grid-column: 4/6;
+  max-width: 167px;
+  grid-row: 4;
+}
+.company-roman-viktorovich__text {
+  grid-column: 4/7;
+  grid-row: 6;
+  font-size: 20px;
+  line-height: 170.66%;
+  max-width: 383px;
+}
+.company-roman-viktorovich__image-man {
+  grid-column: 8/14;
+  grid-row: 1/9;
+  max-width: 516px;
+}
+.company-roman-viktorovich__image-people {
+  grid-column: 3/5;
+  grid-row: 8/15;
+}
+.company-roman-viktorovich__number--one {
+  grid-column: 8;
+  grid-row: 10;
+}
+.company-roman-viktorovich__number--two {
+  grid-column: 10;
+  grid-row: 10;
+}
+.company-roman-viktorovich__number--three {
+  grid-column: 12;
+  grid-row: 10;
+}
+.company-roman-viktorovich__number-info--one {
+  grid-column: 8;
+  grid-row: 12;
+  max-width: 100px;
+}
+.company-roman-viktorovich__number-info--two {
+  grid-column: 10;
+  grid-row: 12;
+  max-width: 94px;
+}
+.company-roman-viktorovich__number-info--three {
+  grid-column: 12;
+  grid-row: 12;
+  max-width: 81px;
+}
+.company-roman-viktorovich__next-text {
+  grid-column: 8/13;
+  grid-row: 14;
+  max-width: 516px;
+}
+.company-roman-viktorovich img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 910px_______________*/
+@media (max-width: 910px) {
+  .company-roman-viktorovich {
+    margin: 0 0 10% 0;
+    grid-template-rows: 66px auto 32px 41px 56px minmax(137px, auto) minmax(auto, 11vw) 76px 7vw 69px 5px 37px 56px 37px minmax(108px, auto);
+    grid-template-columns: 1fr minmax(auto, 198px) minmax(auto, 65px) minmax(auto, 250px) 9.5vw minmax(auto, 132px) auto minmax(auto, 79px) auto minmax(auto, 79px) auto minmax(auto, 102px) minmax(auto, 146px) 1fr;
+  }
+}
+/*_____________max-width: 600px_______________*/
+@media (max-width: 600px) {
+  .company-roman-viktorovich {
+    grid-template-rows: 58vw 66px auto 32px 41px 6.4vw auto 6.4vw 76px 5px 69px 6.4vw 100px 6.4vw auto;
+    grid-template-columns: 6.4% minmax(30px, 1fr) auto minmax(auto, 20px) auto minmax(auto, 20px) auto 1fr 6.4%;
+  }
+  .company-roman-viktorovich__title {
+    grid-column: 2/8;
+    grid-row: 3;
+  }
+  .company-roman-viktorovich__title-info {
+    grid-column: 2/8;
+    grid-row: 5;
+  }
+  .company-roman-viktorovich__text {
+    grid-column: 2/8;
+    grid-row: 7;
+  }
+  .company-roman-viktorovich__image-man {
+    grid-column: 2/9;
+    grid-row: 1;
+  }
+  .company-roman-viktorovich__image-man img {
+    object-position: 0 0;
+  }
+  .company-roman-viktorovich__image-people {
+    grid-column: 4/7;
+    grid-row: 13;
+  }
+  .company-roman-viktorovich__image-people img {
+    max-height: 300px;
+  }
+  .company-roman-viktorovich__number--one {
+    grid-column: 3;
+    grid-row: 9;
+  }
+  .company-roman-viktorovich__number--two {
+    grid-column: 5;
+    grid-row: 9;
+  }
+  .company-roman-viktorovich__number--three {
+    grid-column: 7;
+    grid-row: 9;
+  }
+  .company-roman-viktorovich__number-info--one {
+    grid-column: 3;
+    grid-row: 11;
+    max-width: 100%;
+  }
+  .company-roman-viktorovich__number-info--two {
+    grid-column: 5;
+    grid-row: 11;
+    max-width: 100%;
+  }
+  .company-roman-viktorovich__number-info--three {
+    grid-column: 7;
+    grid-row: 11;
+    max-width: 100%;
+  }
+  .company-roman-viktorovich__next-text {
+    grid-column: 2/9;
+    grid-row: 16;
+  }
+}
+/*_____________max-width: 600px_______________*/
+@media (max-width: 380px) {
+  .company-roman-viktorovich__image-people {
+    grid-column: 2/9;
+    grid-row: 13;
+  }
+}
+/*________________________________________________________________________company-roman-viktorovich___________________________________________________________________________________________*/
+/*__________________________________________________________________________________lorem_____________________________________________________________________________________________________*/
+.wrapper-bg {
+  background: #080808;
+  width: 100%;
+  margin: 0 0 140px 0;
+}
+
+.lorem__info {
+  grid-template: 1fr 69px 22px auto 1fr/minmax(auto, 455px) auto minmax(auto, 489px);
+}
+.lorem__text {
+  max-width: 400px;
+  padding: 0;
+  padding-left: 30px;
+}
+.lorem__img {
+  filter: drop-shadow(0px 0px 64px rgba(183, 183, 183, 0.16));
+}
+.lorem__title {
+  color: #FFFFFF;
+}
+.lorem__text {
+  color: #FFFFFF;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 910px_______________*/
+@media (max-width: 910px) {
+  .wrapper-bg {
+    margin: 0 0 10% 0;
+  }
+}
+/*__________________________________________________________________________________lorem_____________________________________________________________________________________________________*/
+/*______________________________________________________________________________work-out-team__________________________________________________________________________________________________*/
+.work-out-team {
+  display: grid;
+  grid-template: auto 123px 37px minmax(35px, auto) 16px 20px 187px/1fr minmax(auto, 199px) minmax(300px, 424px) minmax(auto, 238px) minmax(200px, 288px) 16px 16px 13px 16px 17px minmax(auto, 213px) 1fr;
+  font-size: 11;
+}
+.work-out-team__title {
+  grid-column: 3;
+  grid-row: 1;
+  color: #080808;
+}
+.work-out-team__email {
+  grid-column: 3;
+  grid-row: 3;
+}
+.work-out-team__text {
+  grid-column: 5/11;
+  grid-row: 3/5;
+}
+.work-out-team__contact-email {
+  grid-column: 5;
+  grid-row: 6;
+}
+.work-out-team__contact--fb {
+  grid-column: 6;
+  grid-row: 6;
+}
+.work-out-team__contact--in {
+  grid-column: 8;
+  grid-row: 6;
+}
+.work-out-team__contact--be {
+  grid-column: 10;
+  grid-row: 6;
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*_____________max-width: 910px_______________*/
+@media (max-width: 910px) {
+  .work-out-team {
+    grid-template: auto 9vw 37px 6.4vw auto 20px 20px minmax(100px, 13.6vw)/6.4% 1fr 16px 16px 13px 16px 17px 6.4%;
+    font-size: 11;
+  }
+  .work-out-team__title {
+    grid-column: 2/8;
+    grid-row: 1;
+  }
+  .work-out-team__email {
+    grid-column: 2/8;
+    grid-row: 3;
+    max-width: 400px;
+  }
+  .work-out-team__text {
+    grid-column: 2/8;
+    grid-row: 5;
+  }
+  .work-out-team__contact-email {
+    grid-column: 2/8;
+    grid-row: 7;
+  }
+  .work-out-team__contact--fb {
+    grid-column: 3;
+    grid-row: 7;
+  }
+  .work-out-team__contact--in {
+    grid-column: 5;
+    grid-row: 7;
+  }
+  .work-out-team__contact--be {
+    grid-column: 7;
+    grid-row: 7;
+  }
+}
+/*________________________________________________________________________company-roman-viktorovich___________________________________________________________________________________________*/
+/*__________________________________________________________________________________footer____________________________________________________________________________________________________*/
+.footer__the-first {
+  color: #080808;
+}
+.footer__the-last {
+  color: #080808;
+}

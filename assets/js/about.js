@@ -2,7 +2,7 @@
   const swiperAbout = new Swiper('.swiper-about', {
     // Optional parameters
     direction: 'horizontal',
-    spaceBetween: -900,
+    spaceBetween: -1120,
     loop: true,
     slidesPerView: 2,
     preloadImages: true,
@@ -27,6 +27,15 @@
      type: 'progressbar'
 
   },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      spaceBetween: -1425,
+    },
+    910: {
+      spaceBetween: -1120,
+    }
+},
     
     on: {
     init: function () {

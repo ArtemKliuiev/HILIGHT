@@ -1,25 +1,33 @@
 .nav-scrolled {
-    background-color: #e5e5e5;
+    background-color: #ffffff;
+}
+
+.nav-scrolled .menu__link {
+    color: #080808;
+}
+
+.nav-scrolled .menu__link-menu {
+    color: #080808;
+}
+
+.nav-scrolled .menu__link--button {
+    border: 1px solid #080808;
 }
 
 .text {
     color: #080808;
 }
 
-.menu {
-    background-color: #e5e5e5;
-}
-
 .menu__link {
-    color: #080808;
+    color: #ffffff;
 }
 
 .menu__link-menu {
-    color: #080808;
+    color: #ffffff;
 }
 
 .menu__link--button {
-    border: 1px solid #080808;
+    border: 1px solid #ffffff;
 }
 
 .menu__burger {
@@ -75,7 +83,7 @@
 .header__body {
     grid-column: 2;
     display: grid;
-    grid-template: 1fr auto 24px auto 64px auto 1fr/minmax(auto, 197px) minmax(auto, 539px) minmax(auto, 704px);
+    grid-template: 1fr auto 20px auto 64px auto 1fr/minmax(auto, 177px) minmax(auto, 539px) minmax(auto, 704px);
     position: relative;
 }
 
@@ -104,6 +112,7 @@
     font-size: 11px;
     line-height: 20px;
     letter-spacing: 0.06em;
+    max-width: 337px;
     color: #FFFFFF;
     opacity: 0.7;
     display: -ms-flexbox;
@@ -118,8 +127,8 @@
 
 .header__link-row {
     position: absolute;
-    bottom: 40px;
-    left: 42px;
+    bottom: 39px;
+    left: 22px;
     width: 100%;
     display: -ms-flexbox;
     display: flex;
@@ -165,12 +174,20 @@
     }
 
     .header__body {
-        grid-template: 1fr auto 24px auto 64px auto 1fr/minmax(auto, 159px) minmax(auto, 464px) minmax(159px, auto);
+        grid-template: 230px auto 24px auto 49px auto 1fr/minmax(auto, 159px) minmax(auto, 464px) minmax(159px, auto);
+    }
+
+    .header__title {
+        line-height: 40px;
+    }
+
+    .header__title span {
+        display: block;
     }
 
     .header__link-row {
         left: 56px;
-        bottom: 33px;
+        bottom: 30px;
         max-width: 224px;
     }
 }
@@ -181,12 +198,12 @@
     }
 
     .header__body {
-        grid-template: 1fr auto 24px auto 64px auto 1fr/minmax(auto, 124px) minmax(auto, 464px) minmax(124px, auto);
+        grid-template: 368px auto 22px auto 32px auto 1fr/minmax(auto, 124px) minmax(auto, 464px) minmax(124px, auto);
     }
 
     .header__link-row {
         left: 48px;
-        bottom: 33px;
+        bottom: 30px;
         max-width: 198px;
     }
 }
@@ -197,13 +214,27 @@
     }
 
     .header__body {
-        grid-template: 1fr auto 24px auto 64px auto 1fr/5.86% 1fr 5.86%;
+        grid-template: 107px auto 14px auto 32px auto 1fr/5.86% 1fr 5.86%;
+    }
+
+    .header__title {
+        line-height: 32px;
     }
 
     .header__link-row {
         left: 6.4%;
-        bottom: 24px;
+        bottom: 23px;
         max-width: 181px;
+    }
+
+    .header__row-info {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        height: 100px;
     }
 }
 /*____________________________________________________________________________________header________________________________________________________________________________________________*/
@@ -211,13 +242,14 @@
 .top-info {
     min-height: 562px;
     display: grid;
-    grid-template: 1fr auto 17px auto 40px 13px 1fr/1fr minmax(auto, 197px) minmax(auto, 715px) minmax(auto, 528px) 1fr;
+    grid-template: 140px 44px 13px minmax(168px, auto) 40px 13px 140px/1fr minmax(auto, 197px) minmax(auto, 715px) minmax(auto, 528px) 1fr;
 }
 
 .top-info__title {
     grid-column: 3;
     grid-row: 2;
     color: #080808;
+    max-width: 419px;
 }
 
 .top-info__text {
@@ -231,6 +263,8 @@
 }
 
 .top-info__link {
+    display: block;
+    padding-left: 17px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -246,14 +280,14 @@
 @media (max-width: 1025px) {
     .top-info {
         min-height: 553px;
-        grid-template: 1fr auto 17px auto 40px 13px 1fr/1fr minmax(auto, 159px) minmax(auto, 602px) minmax(auto, 236px) 1fr;
+        grid-template: 1fr auto 17px auto 40px 13px 1fr/1fr minmax(auto, 135px) minmax(auto, 602px) minmax(auto, 236px) 1fr;
     }
 }
 /*_____________max-width: 768px_______________*/
 @media (max-width: 768px) {
     .top-info {
         min-height: 545px;
-        grid-template: 1fr auto 17px auto 40px 13px 1fr/1fr minmax(6.4%, 1fr) minmax(auto, 520px) minmax(6.4%, 1fr) 1fr;
+        grid-template: 1fr auto 20px auto 46px 13px 1fr/1fr minmax(6.4%, 1fr) minmax(auto, 520px) minmax(6.4%, 1fr) 1fr;
     }
 }
 /*______________max-width: 480px______________*/
@@ -266,7 +300,7 @@
 /*___________________________________________________________________________________projects________________________________________________________________________________________________*/
 .projects {
     margin: 0 auto;
-    grid-template: 653px 8px 653px 8px 653px 80px 48px 140px/minmax(auto, 653px) 8px minmax(auto, 653px);
+    grid-template: 653px 8px 775px 8px 653px 80px 48px 140px/minmax(auto, 653px) 8px minmax(auto, 653px);
 }
 
 .projects__card--one {
@@ -309,20 +343,20 @@
 /*______________max-width: 1025px______________*/
 @media (max-width: 1025px) {
     .projects {
-        grid-template: 453px 6px 453px 6px 453px 64px 48px 124px/minmax(auto, 453px) 6px minmax(auto, 453px);
+        grid-template: 453px 6px 550px 6px 453px 64px 48px 124px/minmax(auto, 453px) 6px minmax(auto, 453px);
     }
 }
 /*______________max-width: 768px______________*/
 @media (max-width: 768px) {
     .projects {
-        grid-template: 43.5vw 6px 52vw 6px 43.5vw 56px 48px 104px/minmax(auto, 453px) 6px minmax(auto, 453px);
+        grid-template: 43.5vw 6px 52.6vw 6px 43.5vw 56px 48px 104px/minmax(auto, 453px) 6px minmax(auto, 453px);
     }
 }
 /*______________max-width: 480px______________*/
 @media (max-width: 480px) {
     .projects {
         padding: 0 6.25%;
-        grid-template: 45.75vw 6px 87.5vw 6px 87.5vw 6px 45.75vw 48px 42px 80px/1fr;
+        grid-template: 44.1vw 6px 104.8vw 6px 104.8vw 6px 44.1vw 48px 42px 80px/1fr;
     }
 
     .projects__card--one {
@@ -355,9 +389,32 @@
     }
 }
 /*___________________________________________________________________________________projects________________________________________________________________________________________________*/
+.image-row {
+    grid-template: 178px 154px 25px 96px 41px 48px 178px/minmax(50px, 1fr) 424px minmax(auto, 283px) 183px 156px minmax(50px, 1fr);
+}
+
+/*____________________________________________ADAPTIVE_________________________________________________*/
+/*______________max-width: 1025px______________*/
+@media (max-width: 1025px) {
+    .image-row {
+        grid-template: 140px auto 24px auto 72px 42px 135px/minmax(30px, 1fr) minmax(auto, 455px) minmax(30px, 1fr);
+    }
+}
+/*______________max-width: 768px______________*/
+@media (max-width: 768px) {
+    .image-row {
+        grid-template: 122px auto 24px auto 55px 42px 116px/minmax(30px, 1fr) minmax(auto, 455px) minmax(30px, 1fr);
+    }
+}
+/*______________max-width: 375px______________*/
+@media (max-width: 375px) {
+    .image-row {
+        grid-template: 96px auto 20px auto 41px 42px 89px/6.4% minmax(auto, 455px) 6.4%;
+    }
+}
 /*_____________________________________________________________________________perfect-proportions____________________________________________________________________________________________*/
 .perfect-proportions {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -368,7 +425,7 @@
 .perfect-proportions__info {
     text-align: center;
     display: grid;
-    grid-template: auto 16px auto 128px 600px/minmax(56px, 1fr) minmax(auto, 1312px) minmax(56px, 1fr);
+    grid-template: auto 14px auto 122px 600px/minmax(56px, 1fr) minmax(auto, 1312px) minmax(56px, 1fr);
 }
 
 .perfect-proportions__min-title {
@@ -380,6 +437,8 @@
     color: #828282;
     grid-column: 2;
     grid-row: 1;
+    padding-top: 2px;
+    padding-right: 10px;
 }
 
 .perfect-proportions__title {
@@ -403,22 +462,26 @@
 /*______________max-width: 1025px______________*/
 @media (max-width: 1025px) {
     .perfect-proportions__info {
-        grid-template: auto 14px auto 96px 419px/56px 1fr 56px;
+        grid-template: auto 10px auto 92px 419px/56px 1fr 56px;
+    }
+
+    .perfect-proportions__min-title {
+        padding-right: 0px;
     }
 }
 /*_____________max-width: 768px_______________*/
 @media (max-width: 768px) {
     .perfect-proportions__info {
-        grid-template: auto 12px auto 72px 300px/48px 1fr 48px;
+        grid-template: auto 10px auto 68px 300px/48px 1fr 48px;
     }
 }
 /*______________max-width: 480px______________*/
 @media (max-width: 480px) {
     .perfect-proportions__info {
-        grid-template: auto 10px auto 56px 200px/6.4% 1fr 6.4%;
+        grid-template: auto 8px auto 50px 200px/6.4% 1fr 6.4%;
     }
 }
-
+/*______________footer______________*/
 .footer {
     display: none;
 }
